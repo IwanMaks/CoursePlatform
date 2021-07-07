@@ -11,10 +11,12 @@
 
 .test {
   display: block;
+
   height: 89px;
+  padding: 90px;
+
   background-color: #FAFAFA;
   justify-items: center;
-    padding: 90px;
 }
 
 .main {
