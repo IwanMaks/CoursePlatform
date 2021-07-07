@@ -10,12 +10,11 @@
 }
 
 .test {
+  display: block;
+  height: 89px;
+  background-color: #FAFAFA;
+  justify-items: center;
     padding: 90px;
-    height: 89px;
-    background-color: #fafafa;
-
-    display: block;
-    justify-items: center;
 }
 
 .main {
