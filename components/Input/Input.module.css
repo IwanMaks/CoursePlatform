@@ -3,8 +3,8 @@
 }
 
 .input {
-    background: #2D303E;
-    color: #E0E6E9;
+    background: var(--background__form);
+    color: var(--text__lighter);
     outline: none;
 
     border: 1px solid #393C49;
@@ -12,10 +12,8 @@
     border-radius: 8px;
     padding: 14px;
 
-    font-size: 14px;
-    line-height: 20px;
 }
 
 .input::placeholder {
-    color: #889898;
+    color: var(--text__gray);
 }
