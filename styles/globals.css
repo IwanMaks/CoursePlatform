@@ -25,6 +25,7 @@ a {
   --text__gray: #889898;
   --text__light: #ABBBC2;
   --text__lighter: #E0E6E9;
+  --base: #FAFAFA;
   --background__dark1: #252836;
   --background__dark2: #1F1D2B;
   --background__form: #2D303E;
@@ -34,6 +35,8 @@ a {
   --accent__blue: #65B0F6;
   --accent__purple: #9290FE;
   --primary: #EA7C69;
+  --primary__hover: rgba(234, 124, 105, 0.8);
+  --ghost__hover: rgba(234, 124, 105, 0.2);
   --secondary: #9288E0;
   --white: #FFF;
 }
