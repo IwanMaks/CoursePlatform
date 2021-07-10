@@ -1,3 +1,1 @@
-export const arr = () => {
-    console.log('test')
-}
+export * from './Input/Input'
