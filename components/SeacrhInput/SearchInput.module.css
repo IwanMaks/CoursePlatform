@@ -1,0 +1,38 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search svg {
+    width: 20px;
+    height: 20px;
+}
+
+.input {
+    background: var(--background__form);
+    color: var(--text__lighter);
+
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    outline: none;
+    height: 48px;
+    width: 178px;
+    padding: 14px;
+}
+
+.input::placeholder {
+    color: var(--text__gray);
+    line-height: 48px;
+}
+
+.svgWrapper {
+    background: var(--background__form);
+    border: 1px solid #393C49;
+    border-radius: 8px 0 0 8px;
+    box-sizing: border-box;
+
+    border-right: none;
+    padding: 10.5px 0 10.5px 14px;
+}

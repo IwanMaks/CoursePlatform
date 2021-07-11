@@ -1,9 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import {Input} from "../components";
-import {Button} from "../components/Button/Button";
-import {Tab} from "../components/Tab/Tab";
+import {Input, Button, Tab, SearchInput, Dropdown} from "../components";
 
 export default function Home() {
   return (
@@ -18,6 +13,8 @@ export default function Home() {
             <Button appearance={'ghost'} icon={'none'}>Confirm payment</Button>
             <Tab state={true}>Hot Dishes</Tab>
             <Tab state={false}>To go</Tab>
+            <SearchInput placeholder='This is Placeholder' />
+            <Dropdown />
         </section>
     </>
   )

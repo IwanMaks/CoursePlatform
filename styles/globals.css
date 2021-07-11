@@ -12,7 +12,6 @@ body {
 }
 
 section {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -20,6 +19,7 @@ section {
   flex-wrap: wrap;
   padding: 20px 20px;
 }
+
 a {
   text-decoration: none;
 

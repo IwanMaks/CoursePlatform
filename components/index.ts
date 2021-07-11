@@ -1,1 +1,5 @@
 export * from './Input/Input'
+export * from  './Button/Button'
+export * from './Tab/Tab'
+export * from './Dropdown/Dropdown'
+export * from './SeacrhInput/SearchInput'
