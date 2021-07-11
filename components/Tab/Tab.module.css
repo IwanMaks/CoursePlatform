@@ -1,0 +1,17 @@
+.tab {
+    border-radius: 8px;
+    height: 34px;
+    padding: 7px 12px;
+    background-color: var(--background__dark2);
+    color: var(--primary);
+    width: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: var(--primary);
+    color: var(--white);
+}

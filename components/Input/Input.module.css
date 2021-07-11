@@ -1,7 +1,3 @@
-.inputWrapper {
-    margin: 30px;
-}
-
 .input {
     background: var(--background__form);
     color: var(--text__lighter);
@@ -10,10 +6,12 @@
     border: 1px solid #393C49;
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 14px;
-
+    height: 48px;
+    width: 178px;
+    padding: 17px 14px 14px 13px;
 }
 
 .input::placeholder {
     color: var(--text__gray);
+    line-height: 48px;
 }

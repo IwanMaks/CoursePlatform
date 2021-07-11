@@ -5,11 +5,9 @@ import cn from 'classnames'
 
 export const Input = ({className, ...props}: InputProps): JSX.Element => {
     return (
-        <div className={cn(className, styles.inputWrapper)}>
-            <input
-                className={cn(styles.input, globalTextStyle.body_normal_regular)}
-                {...props}
-            />
-        </div>
+        <input
+            className={cn(className, styles.input, globalTextStyle.body_normal_regular)}
+            {...props}
+        />
     )
 }

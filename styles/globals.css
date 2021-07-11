@@ -4,12 +4,22 @@ body {
   padding: 0;
 
   line-height: 140%;
+  background-color: var(--background__dark1);
 
   font-family:
     Barlow,
     sans-serif;
 }
 
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
 a {
   text-decoration: none;
 
@@ -35,8 +45,8 @@ a {
   --accent__blue: #65B0F6;
   --accent__purple: #9290FE;
   --primary: #EA7C69;
-  --primary__hover: rgba(234, 124, 105, 0.8);
-  --ghost__hover: rgba(234, 124, 105, 0.2);
+  --primary__hover: rgba(234, 124, 105, 0.75);
+  --ghost__hover: rgba(234, 124, 105, 0.15);
   --secondary: #9288E0;
   --white: #FFF;
 }
