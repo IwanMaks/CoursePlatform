@@ -1,4 +1,6 @@
 import {Input, Button, Tab, SearchInput, Dropdown, SummaryCard, DishCard} from "../components";
+import {StatusTab} from "../components/StatusTab/StatusTab";
+import {OrderRow} from "../components/OrderRow/OrderRow";
 
 export default function Home() {
   return (
@@ -17,6 +19,10 @@ export default function Home() {
             <Dropdown />
             <SummaryCard />
             <DishCard />
+            <StatusTab state={'pending'}/>
+            <StatusTab state={'preparing'}/>
+            <StatusTab state={'completed'}/>
+            <OrderRow userID={'user1'} userName={'Vladimir Putin'} menuOrder={'Spicy seasoned seafood noodles'} totalPrice={125}/>
         </section>
     </>
   )
