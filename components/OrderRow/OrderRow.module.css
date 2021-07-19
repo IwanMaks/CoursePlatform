@@ -1,0 +1,24 @@
+.orderRow {
+    width: 600px;
+    height: 66px;
+    display: grid;
+    grid-template-columns: 10% 20% 30% 20% 20%;
+    color: var(--text__lighter);
+    align-items: center;
+    padding: 0;
+}
+
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+}
+
+.price {
+    width: 100%;
+    text-align: center;
+}
+
+.statusTab {
+    justify-self: end;
+}
