@@ -1,4 +1,4 @@
-import {Input, Button, Tab, SearchInput, Dropdown, SummaryCard} from "../components";
+import {Input, Button, Tab, SearchInput, Dropdown, SummaryCard, DishCard} from "../components";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
             <SearchInput placeholder='This is Placeholder' />
             <Dropdown />
             <SummaryCard />
+            <DishCard />
         </section>
     </>
   )
