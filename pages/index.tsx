@@ -1,4 +1,4 @@
-import {Input, Button, Tab, SearchInput, Dropdown} from "../components";
+import {Input, Button, Tab, SearchInput, Dropdown, SummaryCard, DishCard} from "../components";
 import {StatusTab} from "../components/StatusTab/StatusTab";
 import {OrderRow} from "../components/OrderRow/OrderRow";
 
@@ -17,6 +17,8 @@ export default function Home() {
             <Tab state={false}>To go</Tab>
             <SearchInput placeholder='This is Placeholder' />
             <Dropdown />
+            <SummaryCard />
+            <DishCard />
             <StatusTab state={'pending'}/>
             <StatusTab state={'preparing'}/>
             <StatusTab state={'completed'}/>

@@ -1,0 +1,61 @@
+.wrapper {
+    background: var(--background__dark2);
+    border-radius: 8px;
+    width: 199px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.iconWrap {
+    background: var(--background__dark1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 7px;
+}
+
+.iconWrap circle {
+    stroke: var(--secondary);
+}
+
+.iconWrap path {
+    fill: var(--secondary);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.percent {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--accent__green);
+    margin: 0 6px 0 12px;
+}
+
+.up {
+    background: rgba(136, 224, 145, 0.24);
+    border-radius: 20px;
+    display: flex;
+    padding: 4px;
+}
+
+.up path {
+    fill: var(--accent__green);
+}
+
+.total {
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--white);
+    margin: 16px 0;
+}
+
+.revenue {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text__light);
+}
